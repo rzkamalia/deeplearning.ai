@@ -16,7 +16,8 @@ _ = load_dotenv(find_dotenv())
 openai.api_key = os.environ['OPENAI_API_KEY']
 
 class Tagging(BaseModel):
-    """Tag the piece of text with particular info."""
+    """Tag the piece of text with particular info.
+    """
     sentiment: str = Field(description="sentiment of text, should be `pos`, `neg`, or `neutral`")
     language: str = Field(description="language of text (should be ISO 639-1 code)")
 
@@ -52,8 +53,8 @@ def main_tagging(input: str):
 
     return result
 
-# result = main_tagging(input="I love super junior")
-# print(result)
+result = main_tagging(input="I love super junior")
+print(result)
 
 class Person(BaseModel):
     """Information about a person.
