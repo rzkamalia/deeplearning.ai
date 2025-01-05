@@ -7,7 +7,7 @@ def json_print(data):
 
 client = weaviate.Client(
     url = weaviate_url,                                                     # `weaviate_url`: your Weaviate URL
-    auth_client_secret = weaviate.auth.AuthApiKey(weaviate_key),        # `weaviate_key`: your Weaviate API key
+    auth_client_secret = weaviate.auth.AuthApiKey(weaviate_key),            # `weaviate_key`: your Weaviate API key
     additional_headers = {"X-HuggingFace-Api-Key": hf_api_key}
 )
 
