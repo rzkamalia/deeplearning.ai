@@ -5,4 +5,4 @@ This repository is note from DeepLearning.AI courses.
 2. [Vector Databases: from Embeddings to Applications](https://learn.deeplearning.ai/accomplishments/cfc33384-5f63-4df5-851f-562c8e5132a0?usp=sharing)
 3. [Functions, Tools, and Agents with LangChain](https://learn.deeplearning.ai/accomplishments/48d863fb-ffea-48be-93c9-c44ec0e43884?usp=sharing)
 4. [AI Agents in LangGraph](https://learn.deeplearning.ai/accomplishments/b5eec6f5-20c5-41c4-a879-985bb73299e2?usp=sharing) ㅡ in repository https://github.com/rzkamalia/langchain
-
+5. [Long-Term Agentic Memory With LangGraph](https://learn.deeplearning.ai/accomplishments/d3d61bae-716d-4877-81b7-dd2bbeed5df6?usp=sharing)
